@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-12T06:19:54Z" name="Default suite" finished-at="2021-11-12T06:20:04Z" duration-ms="9883">
+    <groups>
+    </groups>
+    <test started-at="2021-11-12T06:19:54Z" name="Default test" finished-at="2021-11-12T06:20:04Z" duration-ms="9883">
+      <class name="com.aspirationbank.modules.AspirationPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.aspirationbank.modules.AspirationPageTest@942a29c]" started-at="2021-11-11T22:19:54Z" name="setup" finished-at="2021-11-11T22:19:54Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupp()[pri:0, instance:com.aspirationbank.modules.AspirationPageTest@942a29c]" started-at="2021-11-11T22:19:54Z" name="setupp" finished-at="2021-11-11T22:20:01Z" duration-ms="6478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupp -->
+        <test-method signature="getHomePageTest()[pri:0, instance:com.aspirationbank.modules.AspirationPageTest@942a29c]" started-at="2021-11-11T22:20:01Z" name="getHomePageTest" finished-at="2021-11-11T22:20:04Z" duration-ms="2934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHomePageTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.aspirationbank.modules.AspirationPageTest@942a29c]" started-at="2021-11-11T22:20:04Z" name="teardown" finished-at="2021-11-11T22:20:04Z" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.aspirationbank.modules.AspirationPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
