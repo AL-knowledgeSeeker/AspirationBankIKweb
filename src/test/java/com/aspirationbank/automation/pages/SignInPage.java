@@ -6,9 +6,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.aspirationbank.automation.common.Assertions;
-import com.aspirationbank.modules.TestBase;
+import com.aspirationbank.modules.AbstractTestBase;
 
-public class SignInPage extends TestBase {
+public class SignInPage extends AbstractTestBase {
 	WebDriver driver;
 	Assertions assertions = new Assertions();
 	

@@ -15,9 +15,9 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
-import com.aspirationbank.modules.TestBase;
+import com.aspirationbank.modules.AbstractTestBase;
 
-public class Utils extends TestBase{
+public class Utils extends AbstractTestBase{
 	static WebDriver driver;
 	public Utils() throws IOException {
 		this.driver=driver;

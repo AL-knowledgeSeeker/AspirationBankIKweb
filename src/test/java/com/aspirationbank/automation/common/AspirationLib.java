@@ -4,12 +4,12 @@ import org.openqa.selenium.WebDriver;
 
 import com.aspirationbank.utils.LoadProp;
 
-public class AppLib {
+public class AspirationLib {
 	private WebDriver driver;
 	private PageLib pagelib;
 	
 	
-	public AppLib(WebDriver driver) {
+	public AspirationLib(WebDriver driver) {
 		this.driver=driver;
 		pagelib=new PageLib(driver);
 	}

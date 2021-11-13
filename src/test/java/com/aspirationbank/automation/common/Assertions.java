@@ -2,9 +2,9 @@ package com.aspirationbank.automation.common;
 
 import org.openqa.selenium.WebElement;
 
-import com.aspirationbank.modules.TestBase;
+import com.aspirationbank.modules.AbstractTestBase;
 
-public class Assertions extends TestBase{
+public class Assertions extends AbstractTestBase{
 
 	
 	

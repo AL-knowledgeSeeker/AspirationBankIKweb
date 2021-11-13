@@ -16,10 +16,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.WebDriverEventListener;
 
-import com.aspirationbank.modules.TestBase;
+import com.aspirationbank.modules.AbstractTestBase;
 
 
-public class WebEventListener extends TestBase implements WebDriverEventListener {
+public class WebEventListener extends AbstractTestBase implements WebDriverEventListener {
 
 	public WebEventListener() throws IOException {
 		super();

@@ -13,21 +13,21 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Listeners;
 
-import com.aspirationbank.automation.common.AppLib;
+import com.aspirationbank.automation.common.AspirationLib;
 import com.aspirationbank.utils.Driverfactory;
 import com.aspirationbank.utils.ExtentReportListener;
 import com.aspirationbank.utils.LoadProp;
 
 @Listeners(ExtentReportListener.class)
-public class TestBase extends ExtentReportListener{
+public class AbstractTestBase extends ExtentReportListener{
 	public WebDriver driver;
 	LoadProp loadprop;
 	Driverfactory driverfactory;
 
-	private AppLib app;
+	private AspirationLib app;
 
 	@BeforeSuite
-	public void setup() {
+//	public void setup() {
 		/*
 		 * loadprop=new LoadProp();; driverfactory=new Driverfactory();
 		 * driver=driverfactory.getDriver(loadprop.prop.getProperty("BROWSER").toString(
@@ -41,14 +41,14 @@ public class TestBase extends ExtentReportListener{
 		 * WebDriverWait wait = new WebDriverWait(driver, 10);
 		 * wait.until(ExpectedConditions.elementToBeClickable(cookies_accept)).click();
 		 */
-	}
+	//}
 
 	@BeforeClass
-	public void setupp() {
+	public void setup() {
 		loadprop = new LoadProp();
 		driverfactory = new Driverfactory();
 		driver = driverfactory.getDriver(loadprop.prop.getProperty("BROWSER").toString());
-		app = new AppLib(driver);
+		app = new AspirationLib(driver);
 		driver.manage().window().maximize();
 		getUrl();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -57,7 +57,7 @@ public class TestBase extends ExtentReportListener{
 		wait.until(ExpectedConditions.elementToBeClickable(cookies_accept)).click();
 	}
 
-	public AppLib app() {
+	public AspirationLib app() {
 		return app;
 	}
 

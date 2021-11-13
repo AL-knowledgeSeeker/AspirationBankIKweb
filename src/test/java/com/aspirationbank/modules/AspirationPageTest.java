@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import com.aspirationbank.utils.ExtentReportListener;
 import com.relevantcodes.extentreports.LogStatus;
 
-public class AspirationPageTest extends TestBase{
+public class AspirationPageTest extends AbstractTestBase{
 	ExtentReportListener extentreport=new ExtentReportListener();
 
 	@Test

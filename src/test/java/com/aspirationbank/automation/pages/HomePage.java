@@ -7,10 +7,10 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
 import com.aspirationbank.automation.common.Assertions;
-import com.aspirationbank.modules.TestBase;
+import com.aspirationbank.modules.AbstractTestBase;
 import com.aspirationbank.utils.*;
 
-public class HomePage extends TestBase {
+public class HomePage extends AbstractTestBase {
 	WebDriver driver;
 	Assertions assertions = new Assertions();
 	
